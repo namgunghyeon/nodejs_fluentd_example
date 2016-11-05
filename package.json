@@ -1,0 +1,16 @@
+{
+  "name": "fluentd-node-test",
+  "version": "0.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "fluent-logger": "^2.2.0",
+    "winston": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=4.4.6"
+  },
+  "scripts": {
+    "start": "node server/app.js"
+  },
+  "private": true
+}
